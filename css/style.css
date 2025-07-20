@@ -146,7 +146,7 @@ main{
     align-items: center;
    margin:  50px auto;
 }
- #btn{background-color: #E02C6D;
+ .btt{background-color: #E02C6D;
   
     width: 130px;
     height: 40px;
@@ -161,7 +161,7 @@ main{
         color: black;
          transition: 0.2s;
     }
-     #btn:hover{
+     .btt:hover{
         background-color: rgba(128, 255, 0, 0.713);
         color: black;
         transition: 0.2s;
@@ -229,6 +229,7 @@ main{
              padding-top: 50px;
 
         }
+        
         .collection-pick{
             display: grid;
           grid-template-columns: repeat(2,1fr);
@@ -236,15 +237,20 @@ main{
         .banner{
             display: flex;
             margin-top: 200px;
-        
+            flex-direction: column;}
+            .foot{
+                display: flex;
+                flex-direction: column;
+                margin-top: 300px;
+            }
+            .seemore{
+                padding-right: 450px;
+            }
+            .master{
+                display: flex;
+                flex-direction: column;
+                padding-left: 30px;
+            }
             
-          
-            flex-direction: column;
-            .buton{
-                margin-top: 30px;
-            }
-            #btn{
-                margin-bottom: 50px;
-            }
             
     }
